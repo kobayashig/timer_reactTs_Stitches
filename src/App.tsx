@@ -19,7 +19,7 @@ function App() {
   }, [secondsAmount]);
 
   return (
-    <Div type="cont" className={darkTheme}>
+    <Div type="cont">
       <H1>Timer</H1>
       <Div type="timer">
         <Span>{minutes.toString().padStart(2, '0')}</Span>
